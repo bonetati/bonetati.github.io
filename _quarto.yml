@@ -5,7 +5,7 @@ project:
 website:
   title: "Max Bonetati"
   navbar:
-    left:
+    right:
       - About.qmd
       - Project.qmd
       - Adventures.qmd
