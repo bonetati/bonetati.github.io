@@ -8,7 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - aboutMe.qmd
+      - About.qmd
       - Project.qmd
       - Adventures.qmd
       - Resume.qmd
