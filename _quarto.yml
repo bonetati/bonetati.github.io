@@ -3,12 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "bonetati.github.io"
+  title: "Max Bonetati"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - aboutMe.qmd
+      - Project.qmd
+      - Adventures.qmd
+      - Resume.qmd
 
 format:
   html:
