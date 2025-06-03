@@ -6,7 +6,7 @@ website:
   title: "Max Bonetati"
   navbar:
     right:
-      - About.qmd
+      - about.qmds
       - Project.qmd
       - Adventures.qmd
       - Resume.qmd

@@ -3,8 +3,7 @@ title: "Welcome to My Website"
 format:
   html:
     theme: trestles
-    css: styles.css 
-    toc: false
+    toc: true
 ---
 
 <img src="images/me.jpg" alt="Photo of me" width="250px" style="border-radius: 50%; display: block; margin: 0 auto;"/>
