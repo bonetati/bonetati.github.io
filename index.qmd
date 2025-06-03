@@ -1,11 +1,11 @@
 ---
-title: "Welcome"
+title:""
 format:
   html:
     toc: false
 ---
 
-![Snowboarding at Mammoth Mountain!](Photos/Intro.jpg){alt="Photo of me" style="border-radius: 7%; display: block; margin: 0 auto;" fig-align="left"}
+![Snowboarding at Mammoth Mountain!](Photos/Intro.jpg){alt="Photo of me" style="border-radius: 7%; display: block; margin: 0 auto;" fig-align="left" width="500"}
 
 # Hello! I'm Max Bonetati
 
