@@ -3,3 +3,14 @@ title: "Project"
 format: html
 ---
 
+::::: columns
+::: {.column width="40%"}
+![Me on a hike](Photos/Intro.jpg)
+:::
+
+::: {.column width="60%"}
+## Hello! I’m Max Bonetati
+
+I’m an Environmental Studies major at UCSB, passionate about renewable energy and climate action. I enjoy working on projects that combine fieldwork with data visualization, especially in microgrid planning and solar deployment.
+:::
+:::::
