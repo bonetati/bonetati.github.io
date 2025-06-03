@@ -1,21 +1,16 @@
 ---
-title: "Welcome to My Website"
+title: "Welcome"
 format:
   html:
-    theme: trestles
-    toc: true
+    toc: false
 ---
 
-<img src="images/me.jpg" alt="Photo of me" width="250px" style="border-radius: 50%; display: block; margin: 0 auto;"/>
+![Snowboarding at Mammoth Mountain!](Photos/Intro.jpg){alt="Photo of me" style="border-radius: 7%; display: block; margin: 0 auto;" fig-align="left"}
 
-# Hello! I’m Max Bonetati
+# Hello! I'm Max Bonetati
 
 Welcome to my personal website. I’m currently an Environmental Studies student at UCSB, passionate about renewable energy, photography, and outdoor adventures.
 
-------------------------------------------------------------------------
+I’m passionate about the intersection between climate action and hands-on work in the field. Specifically micro-grids, solar PV systems (especially organic), and sustainable energy solutions. I’ve worked on research and technical projects involving data analysis, mapping tools, and some ecological fieldwork.
 
-## About Me
-
-I’m passionate about the intersection of climate action and hands-on work in the field. Specifically micro-grids, solar PV systems (especially organic), and sustainable energy solutions. I’ve worked on research and technical projects involving data analysis, mapping tools, and some ecological fieldwork.
-
-In my free time, you’ll find me hiking, backpacking, or working with micro electronics.
+In my free time, you’ll find me hiking, backpacking, or out in the snow.
