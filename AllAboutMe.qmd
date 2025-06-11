@@ -1,6 +1,53 @@
 ---
 format:
   html:
-    toc: false
+    toc: TRUE
     anchor-sections: false
 ---
+
+# About Me
+
+Welcome! This page shares a bit about who I am through landscapes, lenses, and lyrics!
+
+---
+
+## Destination Mountains
+
+Being an avid hiker these are my favorite mountains to explore:
+
+<img src="" alt="Mountain 1" width="45%" style="margin:10px;">
+<img src="" alt="Mountain 2" width="45%" style="margin:10px;">
+
+---
+
+## Photography
+
+<img src="" alt="" width="60%" style="display:block; margin:auto;">
+
+
+---
+
+## Music
+
+Music is a part of my everyday life. From when I wake up to when I go to bed, these are the albums I have on repeat.
+
+<iframe style="border-radius:12px" 
+  src="https://open.spotify.com/album/70hX7IYqmUGV97OXs2v848" 
+  width="30%" height="152" frameBorder="0" allowfullscreen="" 
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+  loading="lazy">
+</iframe>
+
+<iframe style="border-radius:12px" 
+  src="https://open.spotify.com/album/70hX7IYqmUGV97OXs2v848" 
+  width="30%" height="152" frameBorder="0" allowfullscreen="" 
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+  loading="lazy">
+</iframe>
+
+<iframe style="border-radius:12px" 
+  src="https://open.spotify.com/album/70hX7IYqmUGV97OXs2v848" 
+  width="30%" height="152" frameBorder="0" allowfullscreen="" 
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+  loading="lazy">
+</iframe>
