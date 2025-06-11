@@ -1,5 +1,18 @@
 ---
-title: "Resume"
-format: html
+format:
+  html:
+    toc: false
+    anchor-sections: false
 ---
 
+## Resume
+
+<div style="height: 1000px; border: 1px solid #ccc;">
+  <embed src="Photos/resume.pdf" type="application/pdf" width="100%" height="400%" />
+</div>
+
+<div style="position: fixed; bottom: 20px; right: 40px; background-color: #f0e4c4; padding: 5px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2); z-index: 100;">
+  <a href="Photos/resume.pdf" download style="text-decoration: none; font-weight: bold;">
+    Download
+  </a>
+</div>
