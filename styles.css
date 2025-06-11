@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:wght@400;700&display=swap');
 
 /* light tan f0e4c4 */
+/* darker background 7b8566 */
 
 html, body {
   height: 100%;
@@ -39,7 +40,7 @@ h1, h2, h3, h4 {
 }
 
 .navbar {
-  background-image: url('Photos/xv.png');
+  background-image: url('Photos/xv2.png');
   background-color: #a3b18a; 
   border-bottom: 2px solid #6c584c; 
 }
@@ -74,7 +75,7 @@ img {
 
 
 footer {
-  background-image: url('Photos/xv.png');
+  background-image: url('Photos/xv2.png');
   background-color: #a3b18a;
   color: #4e4637;             
   text-align: right;
