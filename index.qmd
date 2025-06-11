@@ -2,6 +2,7 @@
 format:
   html:
     toc: false
+    anchor-sections: false
 ---
 
 :::::: columns
@@ -18,7 +19,7 @@ format:
 
 Welcome to my personal website. I’m currently an Environmental Studies student at UCSB, passionate about renewable energy, photography, and outdoor adventures.
 
-I’m passionate about the intersection between climate action and hands-on work in the field. Specifically micro-grids, solar PV systems (especially organic), and sustainable energy solutions. I’ve worked on research and technical projects involving data analysis, mapping tools, and some ecological fieldwork.
+In my studies I explore the intersection between climate action and hands-on work in the field. Specifically micro-grids, solar PV systems (especially organic), and sustainable energy solutions. I’ve worked on research and technical projects involving data analysis, mapping tools, and some ecological fieldwork.
 
 In my free time, you’ll find me hiking, backpacking, or out in the snow.
 :::

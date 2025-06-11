@@ -4,66 +4,63 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #2e3d27;
+  color: #4e4637; 
   line-height: 1.6;
   margin: 0;
-  background: linear-gradient(to bottom right, #a5d6a7, #1b5e20);
+  background: linear-gradient(to bottom right, #dcefd8, #a3b18a); 
 }
 
 body::before {
   content: "";
   background-image: url('Photos/xv.png');
-  opacity: 1;
+  opacity: 0.08; /* texture effect */
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   z-index: -1;
   background-repeat: repeat;
 }
 
-
 h1, h2, h3, h4 {
   font-family: 'EB Garamond', serif;
-  color: #2e7d32;
+  color: #6c584c; 
+  border-bottom: 2px solid #6c584c;
 }
 
-
 .navbar {
-  background-color: #2e7d32;
-  border-bottom: 2px solid #1b5e20;
+  background-color: #a3b18a; 
+  border-bottom: 2px solid #f0e4c4; 
 }
 
 .navbar a {
-  color: #c8e6c9 !important;
+  color: #f0e4c4 !important; 
   font-weight: bold;
 }
 
 .navbar a:hover {
-  background-color: #66bb6a !important;
-  color: #003300 !important;
+  color: #6c584c !important; 
 }
-
 
 .sidebar nav {
-  background-color: #c8e6c9;
+  background-color: #f0e4c4; 
 }
-
 
 a {
-  color: #1b5e20;
-}
-a:hover {
-  color: #004d40;
+  color: #6b705c; 
 }
 
+a:hover {
+  color: #3e4c3a; 
+}
 
 img {
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(34, 139, 34, 0.2);
+  box-shadow: 0 4px 8px rgba(107, 112, 92, 0.2);
   max-width: 100%;
   height: auto;
 }
 
 
+/*
 .caption {
   text-align: center;
   font-style: italic;
@@ -80,7 +77,6 @@ pre, code {
   overflow-x: auto;
 }
 
-
 footer {
   background-color: #a5d6a7;
   padding: 1rem;
@@ -88,6 +84,6 @@ footer {
   font-size: 0.85rem;
   color: #2e7d32;
 }
-
+*\
 
 
