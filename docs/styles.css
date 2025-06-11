@@ -2,23 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:wght@400;700&display=swap');
 
 /* light tan f0e4c4 */
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: #4e4637; 
-  line-height: 1.6;
+  height: 100%;
+  padding: 0;
   margin: 0;
   background: linear-gradient(to bottom right, #dcefd8, #a3b18a); 
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
+/*
 body::before {
   content: "";
   background-image: url('Photos/xv.png');
-  opacity: 0.08; /* texture effect */
+  opacity: 1;
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   z-index: -1;
-  background-repeat: repeat;
 }
+*/
 
 h1, h2, h3, h4 {
   font-family: 'EB Garamond', serif;
@@ -63,9 +68,9 @@ img {
 footer {
   background-color: #a3b18a;
   color: #4e4637;             
-  text-align: center;
+  text-align: right;
   padding: 15px 10px;
-  font-size: 0.5em;
+  font-size: 0.3em;
   position: relative;
 
 }
