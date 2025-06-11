@@ -14,7 +14,6 @@ body {
   min-height: 100vh;
 }
 
-/*
 body::before {
   content: "";
   background-image: url('Photos/xv.png');
@@ -23,7 +22,6 @@ body::before {
   top: 0; left: 0; right: 0; bottom: 0;
   z-index: -1;
 }
-*/
 
 h1, h2, h3, h4 {
   font-family: 'EB Garamond', serif;
