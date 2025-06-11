@@ -4,7 +4,7 @@ format:
     toc: false
     anchor-sections: false
 ---
-
+<main>
 :::::: columns
 ::: {.column width="39%"}
 ![](Photos/Intro.jpg){alt="Me on a hike" fig-align="left" width="375"}
@@ -24,6 +24,7 @@ In my studies I explore the intersection between climate action and hands-on wor
 In my free time, you’ll find me hiking, backpacking, or out in the snow.
 :::
 ::::::
+</main>
 
 <footer>
   © 2025 Max Bonetati · Built with Quarto · <a href="mailto:maxbonetati@gmail.com">Contact</a>

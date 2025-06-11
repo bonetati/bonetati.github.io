@@ -3,21 +3,30 @@
 
 /* light tan f0e4c4 */
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: #4e4637; 
-  height: 100%;
-  padding: 0;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background: linear-gradient(to bottom right, #dcefd8, #a3b18a); 
   background-attachment: fixed;
-  min-height: 100vh;
+}
+
+main {
+  flex: 1; /* makes main content grow to fill space */
 }
 
 body::before {
   content: "";
   background-image: url('Photos/xv.png');
-  opacity: 1;
+  opacity: 0.8;
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   z-index: -1;
@@ -30,6 +39,7 @@ h1, h2, h3, h4 {
 }
 
 .navbar {
+  background-image: url('Photos/xv.png');
   background-color: #a3b18a; 
   border-bottom: 2px solid #6c584c; 
 }
@@ -64,13 +74,13 @@ img {
 
 
 footer {
+  background-image: url('Photos/xv.png');
   background-color: #a3b18a;
   color: #4e4637;             
   text-align: right;
   padding: 15px 10px;
-  font-size: 0.3em;
-  position: relative;
-
+  font-size: 0.5em;
+  width: 100%;
 }
 
 
