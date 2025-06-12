@@ -1,9 +1,18 @@
 ---
-title: "Roadtrip"
-format: html
+title: "Snow Trip Heaven"
+format:
+  html:
+    toc: false
+    anchor-sections: false
 ---
 
+<video width="100%" controls>
 
+<source src="Photos/drivi.mp4" type="video/mp4">
+
+Your browser does not support the video tag. </video>
+
+##Map
 ```{r, echo=FALSE}
 library(leaflet)
 # Points
@@ -14,24 +23,52 @@ trip_points <- data.frame(
           39.5296, 37.7811),
   lng = c(-118.3952, -118.9721, -120.0324, -122.3917, -121.6880, 
           -119.8138, -119.0732),
-  photo = c(
-    "Photos/bishop.jpg",
-    "Photos/mammoth.jpg",
-    "Photos/tahoe.jpg",
-    "Photos/redding.jpg",
-    "Photos/bachelor.jpg",
-    "Photos/reno.jpg",
-    "Photos/junelake.jpg"
-  ),
   color = c("green", "green", "green", "green", "green", "green", "green")
 )
 
 #Leaflet map
 leaflet(data = trip_points) %>%
   addTiles() %>%
-  addMarkers(~lng, ~lat, label = ~place, popup = ~paste0("<b>", place, "</b><br><img src='", photo, "' width='200px'>")) %>%
+  addMarkers(~lng, ~lat, label = ~place, popup = ~paste0("<b>", place, "</b>")) %>%
   addPolylines(~lng, ~lat, color = "#6c584c", weight = 4, opacity = 0.8) %>%
   setView(lng = -120.5, lat = 38.5, zoom = 6)
 
 ```
+##Photos
+:::: transbox
+::: gallery
+  <img src="Photos/bishop.jpg" alt="Bishop">
+  <img src="Photos/mammoth.jpg" alt="Mammoth">
+  <img src="Photos/tahoe.jpg" alt="Lake Tahoe">
+  <img src="Photos/redding.jpg" alt="Redding" >
+  <img src="Photos/bachelor.jpg" alt="Mt. Bachelor" >
+  <img src="Photos/junelake.jpg" alt="June Lake">
+:::
+::::
 
+##Itenerary
+:::: transbox
+###Setting the Scene
+At the end of fall quarter I had three weeks of winter break, my snowboard, some camping gear, and my little truck. There was only one thing I could think to do, SNOW ROAD TRIP!
+
+###Bishop
+In the middle of a desert there is a secret oasis, a campsite not to far from town. This is were I spent my first night out on the road. Under the stars, next to a flowing river with a bandit of raccoon and the tune of my radio to keep me company. It was comforting. This may have been the only rest I was going to get. 
+
+###Mammoth
+Before the sun rose I had my truck packed and was ready to hit the road again. My first real stop was Mammoth Mountain Ski Resort. I've been to this resort numerous times and it never gets boring. Luckily today was easy, clear skies, decent groomers, and not very many people. I got a full day of snowboarding in then chilled in the lodge for some post-ride mac n cheese. Next it was off to my family friends.
+
+###Lake Tahoe
+I made it just in time for dinner! It was a big family, 7 people, and we went out to eat at a local casino. A night full of laughs and warmth was fulfilling before the next day to come. Waking up, it was drizzling outside nothing terrible just a few drops here and there. Once again I packed my truck and was on my way to the mountain, Palisades. It was a near white out day, you could barely see 30 feet away from you the snow coming down was so hazy. A day full of scary, icey conditions plus a broken phone made it a little tougher to enjoy the mountain. None the less it was still a good day.
+
+###Redding
+After a beautiful drive I made it to Redding to stay with my girlfriend's parents. There was no snowboarding on this part of the trip. Instead we went to zoos, musuems, and even learned about a local cult. It was an interesting change of pace from the previous days, but a welcomed one.
+
+###Mt. Bachelor
+This was the big part of the trip. Five whole days at one of the best resorts on the west coast. I shared a place with four other friends who were just as excited as me to be there. The first day was rough, it was raining hard and the snow was choppy. Still I was out there all day. The next couple days followed suit. That was until the fourth day, Mt. Bachelors birthday! The sun was back out better then ever!
+
+###Reno
+After tiring out from all the snowboarding, back in reno on the way down I got to keep hanging out with my family friends. With them the most interesting thing we did was go to the thrift store bins (which was actually pretty fun), I walked away with a four speakers and a subwoofer!
+
+###June Lake
+The final leg of the trip. It was one that I will never forget. I stayed in a hole in the way motel. It was a place with character. Nothing beats the feeling of June Lake, as you go up the ski lift and get a beautiful view as far as the eye can see of the lake. Snow falling down and chilly in the air, it really did feel likle December for the first time in a while. Next year it will be better then ever!
+::::
