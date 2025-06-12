@@ -4,3 +4,22 @@ format:
     toc: false
     anchor-sections: false
 ---
+
+## Report: Lichen Biomass Recovery
+
+::: transbox
+This project explores how time since stand-replacing fire and forest type affect the recovery of caribou forage lichen in boreal Saskatchewan. The project includes exploratory data analysis, ANOVA, and regression models.
+
+<iframe src="Photos/Final_Project.html" width="100%" height="375px" style="border: 1px solid #a3b18a; border-radius: 12px;"></iframe>
+:::
+---
+
+## Group Video: Location Surveying
+
+::: transbox
+<video width="100%" controls>
+  <source src="Photos/Group4_Bonetati_Lim_Smith_Singh.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+::: 
+  

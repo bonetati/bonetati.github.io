@@ -1,5 +1,37 @@
 ---
-title: "Adventures"
+title: "Roadtrip"
 format: html
 ---
+
+
+```{r, echo=FALSE}
+library(leaflet)
+# Points
+trip_points <- data.frame(
+  place = c("Bishop", "Mammoth", "Lake Tahoe", "Redding", "Mt. Bachelor", 
+            "Reno", "June Lake"),
+  lat = c(37.3634, 37.6485, 39.0968, 40.5865, 43.9793, 
+          39.5296, 37.7811),
+  lng = c(-118.3952, -118.9721, -120.0324, -122.3917, -121.6880, 
+          -119.8138, -119.0732),
+  photo = c(
+    "Photos/bishop.jpg",
+    "Photos/mammoth.jpg",
+    "Photos/tahoe.jpg",
+    "Photos/redding.jpg",
+    "Photos/bachelor.jpg",
+    "Photos/reno.jpg",
+    "Photos/junelake.jpg"
+  ),
+  color = c("green", "green", "green", "green", "green", "green", "green")
+)
+
+#Leaflet map
+leaflet(data = trip_points) %>%
+  addTiles() %>%
+  addMarkers(~lng, ~lat, label = ~place, popup = ~paste0("<b>", place, "</b><br><img src='", photo, "' width='200px'>")) %>%
+  addPolylines(~lng, ~lat, color = "#6c584c", weight = 4, opacity = 0.8) %>%
+  setView(lng = -120.5, lat = 38.5, zoom = 6)
+
+```
 

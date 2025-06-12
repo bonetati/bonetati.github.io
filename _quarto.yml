@@ -5,10 +5,11 @@ project:
 website:
   title: "Max Bonetati"
   navbar:
+    search: false
     right:
       - text: "About Me"
         href: AllAboutMe.qmd
-      - text: "Adventures"
+      - text: "Roadtrip"
         href: Adventures.qmd
       - text: "Project"
         href: Project.qmd

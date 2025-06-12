@@ -80,19 +80,6 @@ h1, h2, h3, h4 {
 }
 
 
-
-.sidebar nav {
-  background-color: #6b705c; 
-}
-
-a {
-  color: #6b705c; 
-}
-
-a:hover {
-  color: #3e4c3a; 
-}
-
 img {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(107, 112, 92, 0.2);
