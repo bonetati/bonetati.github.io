@@ -39,6 +39,17 @@ h1, h2, h3, h4 {
   border-bottom: 2px solid #6c584c;
 }
 
+.transbox {
+  background-color: #a3a89299;
+  padding: 1em;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.boldtext {
+  font-weight: 800;
+}
+
 .navbar {
   background-image: url('Photos/xv2.png');
   background-color: #a3b18a; 
@@ -50,12 +61,28 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 
-.navbar a:hover {
-  color: #6c584c !important; 
+.navbar-brand:hover {
+  color: #6b705c !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  padding: 0.3em !important; 
+    border-radius: 3px !important;
+  box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
 }
 
+.navbar a:hover {
+  color: #6c584c !important; 
+  font-weight: bold;
+  background-color: #a3a89299;
+  padding: 1em;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+
 .sidebar nav {
-  background-color: #f0e4c4; 
+  background-color: #6b705c; 
 }
 
 a {
@@ -84,4 +111,24 @@ footer {
   width: 100%;
 }
 
+/* Photography gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.gallery img {
+  width: 30%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+}
 
